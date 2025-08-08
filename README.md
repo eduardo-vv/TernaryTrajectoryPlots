@@ -54,10 +54,11 @@ tp.show()
 
 which produces the output
 
-<figure style = "text-align : center;">
-<img src="trajectories.png" alt="Three strategies" width="400"/>
-<figcaption>Three different trajectories of a Rock-Paper-Scissors Game.</figcaption>
-</figure>
+<div algin = "center">
+<img src="trajectories.png" alt="Three strategies" width="400">
+<br>
+Three different trajectories of a Rock-Paper-Scissors Game.</figcaption>
+</div>
 
 ## The "Documentation" ##
 ### `set_title(str)` (optional)
