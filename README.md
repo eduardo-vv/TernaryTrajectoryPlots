@@ -64,7 +64,46 @@ which produces the output
 If called sets the title of the plot to the argument passed. No title is displayed otherwise.
 
 ### `set_axis(tuple, **kwargs)` (mandatory)
-* `tuple` a 3-dimensional tuple of  
+
+**Parameters:**
+
+* A 3-dimensional `tuple`  of `strings` indicating each strategy. The order is important.
+
+* `**kwargs`:
+
+    * `triangle_color` (`str`, optional):
+        * The color of the triangular axis.
+        * **Default**: `'black'`.
+
+    * `triangle_line_width` (`int`, optional):
+        * The thickness of the lines of the triangular axis.
+        * **Default**: `2`.
+
+    * `left_label_xpos` (`float`, optional):
+        * The horizontal position of the left corner label.
+        * **Default**: `0`.
+
+    * `top_label_xpos` (`float`, optional):
+        * The horizontal position of the top corner label.
+        * **Default**: `0`.
+
+    * `right_label_xpos` (`float`, optional):
+        * The horizontal position of the right corner label.
+        * **Default**: `0`.
+
+    * `left_label_ypos` (`float`, optional):
+        * The vertical position of the left corner label.
+        * **Default**: `0`.
+
+    * `top_label_ypos` (`float`, optional):
+        * The vertical position of the top corner label.
+        * **Default**: `0`.
+
+    * `right_label_ypos` (`float`, optional):
+        * The vertical position of the right corner label.
+        * **Default**: `0`.
+
+* 
 ### `plot(*args, **kwargs)`
 
 **Parameters:**
