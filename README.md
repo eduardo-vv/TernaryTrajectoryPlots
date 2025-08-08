@@ -115,7 +115,7 @@ Set the triangular axis.
 
     **If `*args` contains three `lists` or three `ndarrays` (numpy arrays)**
     * **Input:** Three arrays (x, y and z) each one of them respective to one of the three strategy frequencies. Such that x[t], y[t] and z[t] indicate the strategy frequencies at time t.
-    * **Behavior:** Plot the data within the file.    
+    * **Behavior:** Plot the data within the lists.    
 
     **If `*args` contains a single `string`**
     * **Input:** A text file in the same directory as the script with name as the `string`. The file data must be in three columns each one of them pertaining to the value of each strategy frequency at a given instant.
