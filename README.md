@@ -55,7 +55,7 @@ tp.show()
 which produces the output
 
 <div algin = "center">
-<img src="trajectories.png" alt="Three strategies">
+<img src="trajectories.png" alt="Three strategies" width = 600>
 <br>
 Three different trajectories of a Rock-Paper-Scissors Game.</figcaption>
 </div>
