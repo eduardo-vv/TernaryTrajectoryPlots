@@ -60,3 +60,57 @@ which produces the output
 </figure>
 
 ## The "Documentation" ##
+### `set_title(str)` (optional)
+If called sets the title of the plot to the argument passed. No title is displayed otherwise.
+
+### `set_axis(tuple, **kwargs)` (mandatory)
+* `tuple` a 3-dimensional tuple of  
+### `plot(*args, **kwargs)`
+
+**Parameters:**
+
+* `*args`:
+    * Receives the input data for plotting.
+
+    **If `*args` contains three `lists` or three `ndarrays` (numpy arrays)**
+    * **Input:** Three arrays (x, y and z) each one of them respective to one of the three strategy frequencies. Such that x[t], y[t] and z[t] indicate the strategy frequencies at time t.
+    * **Behavior:** Plot the data within the file.    
+
+    **If `*args` contains a single `string`**
+    * **Input:** A text file in the same directory as the script with name as the `string`. The file data must be in three columns each one of them pertaining to the value of each strategy frequency at a given instant.
+    * **Behavior:** Plot the data within the file.
+
+    One of these inputs are **required**!
+
+* `**kwargs`:
+    * `line_color` (`str`, optional):
+        * The color of the line.
+        * **Default**: `'black'`.
+
+    * `line_width` (`float`, optional):
+        * The thickness of the line.
+        * **Default**: `1.3`.
+
+    * `label` (`str`, optional):
+        * A text label to be displayed in the legend.
+        * **Default**: `''` (an empty string).
+
+    * `arrow_head_width` (`float`, optional):
+        * The width of the arrow head. 
+        * **Default**: `0.025`.
+
+    * `show_arrow` (`bool`, optional):
+        * If `True`, an arrow head will be displayed.
+        * **Default**: `False`.
+
+    * `arrow_pos` (`float`, optional):
+        * The position of the arrow head along the line, specified by a coordinate of the data relative to a position of the array.
+        * **Default**: `0` (the start of the line).
+
+    * `show_start_marker` (`bool`, optional):
+        * If `True`, a marker will be shown at the start of the line.
+        * **Default**: `True`.
+
+    * `show_end_marker` (`bool`, optional):
+        * If `True`, a marker will be shown at the end of the line.
+        * **Default**: `True`.
