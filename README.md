@@ -170,7 +170,7 @@ Show the legend of the plot. It will not be displayed otherwise.
 Saves the image in the directory.
 
 **Parameters:**
-* A single `string` used as the file name. It does not have to include the format. All images are saved as `.png`.
+* A single `string` used as the file name. It does have to include the format. It should work for any matplotlib allowed format. To be safe, use `.png`.
 
 * `**kwargs`:
     * `dpi` (`int`, optional):
