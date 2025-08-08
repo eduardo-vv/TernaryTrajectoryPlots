@@ -64,6 +64,7 @@ which produces the output
 If called sets the title of the plot to the argument passed. No title is displayed otherwise.
 
 ### `set_axis(tuple, **kwargs)` (mandatory)
+Set the triangular axis.
 
 **Parameters:**
 
@@ -153,3 +154,27 @@ If called sets the title of the plot to the argument passed. No title is display
     * `show_end_marker` (`bool`, optional):
         * If `True`, a marker will be shown at the end of the line.
         * **Default**: `True`.
+
+### `show_legend(**kwargs)`
+Show the legend of the plot. It will not be displayed otherwise.
+
+**Parameters:**
+
+* `**kwargs`:
+    * `font_size` (`float`, optional):
+    * The size of the font.
+    * **Default**: `16`.
+
+### `save(string, **kwargs)`
+Saves the image in the directory.
+
+**Parameters:**
+* A single `string` used as the file name. It does not have to include the format. All images are saved as `.png`.
+
+* `**kwargs`:
+    * `dpi` (`int`, optional):
+    * The `dpi` of the image.
+    * **Default**: `300`.
+
+### `show(string, **kwargs)` (mandatory)
+Shows plot.
