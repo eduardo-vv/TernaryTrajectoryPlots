@@ -75,7 +75,7 @@ If called sets the title of the plot to the argument passed. No title is display
         * The color of the triangular axis.
         * **Default**: `'black'`.
 
-    * `triangle_line_width` (`int`, optional):
+    * `triangle_line_width` (`float`, optional):
         * The thickness of the lines of the triangular axis.
         * **Default**: `2`.
 
