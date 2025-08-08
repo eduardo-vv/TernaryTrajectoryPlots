@@ -67,7 +67,7 @@ If called sets the title of the plot to the argument passed. No title is display
 
 **Parameters:**
 
-* A 3-dimensional `tuple`  of `strings` indicating each strategy. The order is important.
+* A 3-dimensional `tuple`  of `strings` indicating each strategy. The order is important. (Mandatory)
 
 * `**kwargs`:
 
